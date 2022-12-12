@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B075958C831EF56A2260F28 /* Pods_ShifraiseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D93F4CF1952C4C81901DE55C /* Pods_ShifraiseTests.framework */; };
 		5C7EF38329448B5F00B3E8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7EF38229448B5F00B3E8EF /* AppDelegate.swift */; };
 		5C7EF38529448B5F00B3E8EF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7EF38429448B5F00B3E8EF /* SceneDelegate.swift */; };
 		5C7EF38729448B5F00B3E8EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7EF38629448B5F00B3E8EF /* ViewController.swift */; };
-		5C7EF38A29448B5F00B3E8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7EF38829448B5F00B3E8EF /* Main.storyboard */; };
+		5C7EF38A29448B5F00B3E8EF /* Admin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7EF38829448B5F00B3E8EF /* Admin.storyboard */; };
 		5C7EF38C29448B6100B3E8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C7EF38B29448B6100B3E8EF /* Assets.xcassets */; };
-		5C7EF38F29448B6100B3E8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7EF38D29448B6100B3E8EF /* LaunchScreen.storyboard */; };
+		5C7EF38F29448B6100B3E8EF /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C7EF38D29448B6100B3E8EF /* Login.storyboard */; };
 		5C7EF39A29448B6200B3E8EF /* ShifraiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7EF39929448B6200B3E8EF /* ShifraiseTests.swift */; };
 		5C7EF3A429448B6200B3E8EF /* ShifraiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7EF3A329448B6200B3E8EF /* ShifraiseUITests.swift */; };
 		5C7EF3A629448B6200B3E8EF /* ShifraiseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7EF3A529448B6200B3E8EF /* ShifraiseUITestsLaunchTests.swift */; };
+		5E5DE4BA5D25ED9BA0CA621F /* Pods_Shifraise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 139331FFF839814F594E3593 /* Pods_Shifraise.framework */; };
+		74E6D60B76E41CEA2FC45A0B /* Pods_Shifraise_ShifraiseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D9E28AC7A7FEBCA651E27E3 /* Pods_Shifraise_ShifraiseUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +39,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		139331FFF839814F594E3593 /* Pods_Shifraise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shifraise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7EF37F29448B5F00B3E8EF /* Shifraise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shifraise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7EF38229448B5F00B3E8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5C7EF38429448B5F00B3E8EF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5C7EF38629448B5F00B3E8EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5C7EF38929448B5F00B3E8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C7EF38929448B5F00B3E8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Admin.storyboard; sourceTree = "<group>"; };
 		5C7EF38B29448B6100B3E8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5C7EF38E29448B6100B3E8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C7EF38E29448B6100B3E8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		5C7EF39029448B6100B3E8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C7EF39529448B6200B3E8EF /* ShifraiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShifraiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7EF39929448B6200B3E8EF /* ShifraiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShifraiseTests.swift; sourceTree = "<group>"; };
 		5C7EF39F29448B6200B3E8EF /* ShifraiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShifraiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C7EF3A329448B6200B3E8EF /* ShifraiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShifraiseUITests.swift; sourceTree = "<group>"; };
 		5C7EF3A529448B6200B3E8EF /* ShifraiseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShifraiseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DF42FC9AD0DE5510298FFDF /* Pods-Shifraise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shifraise.debug.xcconfig"; path = "Target Support Files/Pods-Shifraise/Pods-Shifraise.debug.xcconfig"; sourceTree = "<group>"; };
+		8D9E28AC7A7FEBCA651E27E3 /* Pods_Shifraise_ShifraiseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shifraise_ShifraiseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91965F2F16C34660D431371E /* Pods-ShifraiseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShifraiseTests.debug.xcconfig"; path = "Target Support Files/Pods-ShifraiseTests/Pods-ShifraiseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D2307D78E83E7FA9936BE0F /* Pods-Shifraise-ShifraiseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shifraise-ShifraiseUITests.debug.xcconfig"; path = "Target Support Files/Pods-Shifraise-ShifraiseUITests/Pods-Shifraise-ShifraiseUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C08DDF506B18BD472745F157 /* Pods-ShifraiseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShifraiseTests.release.xcconfig"; path = "Target Support Files/Pods-ShifraiseTests/Pods-ShifraiseTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9AA050966002707A48F0496 /* Pods-Shifraise-ShifraiseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shifraise-ShifraiseUITests.release.xcconfig"; path = "Target Support Files/Pods-Shifraise-ShifraiseUITests/Pods-Shifraise-ShifraiseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D93F4CF1952C4C81901DE55C /* Pods_ShifraiseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShifraiseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1EC6371E55711F6787655D6 /* Pods-Shifraise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shifraise.release.xcconfig"; path = "Target Support Files/Pods-Shifraise/Pods-Shifraise.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5DE4BA5D25ED9BA0CA621F /* Pods_Shifraise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B075958C831EF56A2260F28 /* Pods_ShifraiseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E6D60B76E41CEA2FC45A0B /* Pods_Shifraise_ShifraiseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				5C7EF39829448B6200B3E8EF /* ShifraiseTests */,
 				5C7EF3A229448B6200B3E8EF /* ShifraiseUITests */,
 				5C7EF38029448B5F00B3E8EF /* Products */,
+				644055501765BC49829D8564 /* Pods */,
+				A26A20F076183552EA297BD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +116,10 @@
 		5C7EF38129448B5F00B3E8EF /* Shifraise */ = {
 			isa = PBXGroup;
 			children = (
-				5C7EF38229448B5F00B3E8EF /* AppDelegate.swift */,
-				5C7EF38429448B5F00B3E8EF /* SceneDelegate.swift */,
-				5C7EF38629448B5F00B3E8EF /* ViewController.swift */,
-				5C7EF38829448B5F00B3E8EF /* Main.storyboard */,
+				5CD4A3EB294499DD0048D3C2 /* Model */,
+				5CD4A3EC294499F20048D3C2 /* View */,
+				5CD4A3ED29449A000048D3C2 /* Controller */,
 				5C7EF38B29448B6100B3E8EF /* Assets.xcassets */,
-				5C7EF38D29448B6100B3E8EF /* LaunchScreen.storyboard */,
 				5C7EF39029448B6100B3E8EF /* Info.plist */,
 			);
 			path = Shifraise;
@@ -127,6 +142,55 @@
 			path = ShifraiseUITests;
 			sourceTree = "<group>";
 		};
+		5CD4A3EB294499DD0048D3C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C7EF38229448B5F00B3E8EF /* AppDelegate.swift */,
+				5C7EF38429448B5F00B3E8EF /* SceneDelegate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5CD4A3EC294499F20048D3C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C7EF38D29448B6100B3E8EF /* Login.storyboard */,
+				5C7EF38829448B5F00B3E8EF /* Admin.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5CD4A3ED29449A000048D3C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5C7EF38629448B5F00B3E8EF /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		644055501765BC49829D8564 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6DF42FC9AD0DE5510298FFDF /* Pods-Shifraise.debug.xcconfig */,
+				F1EC6371E55711F6787655D6 /* Pods-Shifraise.release.xcconfig */,
+				9D2307D78E83E7FA9936BE0F /* Pods-Shifraise-ShifraiseUITests.debug.xcconfig */,
+				C9AA050966002707A48F0496 /* Pods-Shifraise-ShifraiseUITests.release.xcconfig */,
+				91965F2F16C34660D431371E /* Pods-ShifraiseTests.debug.xcconfig */,
+				C08DDF506B18BD472745F157 /* Pods-ShifraiseTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A26A20F076183552EA297BD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				139331FFF839814F594E3593 /* Pods_Shifraise.framework */,
+				8D9E28AC7A7FEBCA651E27E3 /* Pods_Shifraise_ShifraiseUITests.framework */,
+				D93F4CF1952C4C81901DE55C /* Pods_ShifraiseTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C7EF3A929448B6200B3E8EF /* Build configuration list for PBXNativeTarget "Shifraise" */;
 			buildPhases = (
+				A3CE8430321C6B4D44EB1C70 /* [CP] Check Pods Manifest.lock */,
 				5C7EF37B29448B5F00B3E8EF /* Sources */,
 				5C7EF37C29448B5F00B3E8EF /* Frameworks */,
 				5C7EF37D29448B5F00B3E8EF /* Resources */,
+				C360B3BE363C6A45B07AD924 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C7EF3AC29448B6200B3E8EF /* Build configuration list for PBXNativeTarget "ShifraiseTests" */;
 			buildPhases = (
+				9CE68E1F29F1FDA6E1DBF12A /* [CP] Check Pods Manifest.lock */,
 				5C7EF39129448B6200B3E8EF /* Sources */,
 				5C7EF39229448B6200B3E8EF /* Frameworks */,
 				5C7EF39329448B6200B3E8EF /* Resources */,
@@ -169,9 +236,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5C7EF3AF29448B6200B3E8EF /* Build configuration list for PBXNativeTarget "ShifraiseUITests" */;
 			buildPhases = (
+				7B2E01608BBDD71BA5D6335A /* [CP] Check Pods Manifest.lock */,
 				5C7EF39B29448B6200B3E8EF /* Sources */,
 				5C7EF39C29448B6200B3E8EF /* Frameworks */,
 				5C7EF39D29448B6200B3E8EF /* Resources */,
+				D37503D0CF6E7F299AECE8E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,9 +300,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C7EF38F29448B6100B3E8EF /* LaunchScreen.storyboard in Resources */,
+				5C7EF38F29448B6100B3E8EF /* Login.storyboard in Resources */,
 				5C7EF38C29448B6100B3E8EF /* Assets.xcassets in Resources */,
-				5C7EF38A29448B5F00B3E8EF /* Main.storyboard in Resources */,
+				5C7EF38A29448B5F00B3E8EF /* Admin.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +321,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B2E01608BBDD71BA5D6335A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shifraise-ShifraiseUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CE68E1F29F1FDA6E1DBF12A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShifraiseTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CE8430321C6B4D44EB1C70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shifraise-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C360B3BE363C6A45B07AD924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shifraise/Pods-Shifraise-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shifraise/Pods-Shifraise-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shifraise/Pods-Shifraise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D37503D0CF6E7F299AECE8E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shifraise-ShifraiseUITests/Pods-Shifraise-ShifraiseUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Shifraise-ShifraiseUITests/Pods-Shifraise-ShifraiseUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Shifraise-ShifraiseUITests/Pods-Shifraise-ShifraiseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5C7EF37B29448B5F00B3E8EF /* Sources */ = {
@@ -297,20 +469,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5C7EF38829448B5F00B3E8EF /* Main.storyboard */ = {
+		5C7EF38829448B5F00B3E8EF /* Admin.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5C7EF38929448B5F00B3E8EF /* Base */,
 			);
-			name = Main.storyboard;
+			name = Admin.storyboard;
 			sourceTree = "<group>";
 		};
-		5C7EF38D29448B6100B3E8EF /* LaunchScreen.storyboard */ = {
+		5C7EF38D29448B6100B3E8EF /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5C7EF38E29448B6100B3E8EF /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,6 +604,7 @@
 		};
 		5C7EF3AA29448B6200B3E8EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF42FC9AD0DE5510298FFDF /* Pods-Shifraise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -460,6 +633,7 @@
 		};
 		5C7EF3AB29448B6200B3E8EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1EC6371E55711F6787655D6 /* Pods-Shifraise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -488,6 +662,7 @@
 		};
 		5C7EF3AD29448B6200B3E8EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91965F2F16C34660D431371E /* Pods-ShifraiseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +683,7 @@
 		};
 		5C7EF3AE29448B6200B3E8EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08DDF506B18BD472745F157 /* Pods-ShifraiseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +704,7 @@
 		};
 		5C7EF3B029448B6200B3E8EF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D2307D78E83E7FA9936BE0F /* Pods-Shifraise-ShifraiseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +723,7 @@
 		};
 		5C7EF3B129448B6200B3E8EF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AA050966002707A48F0496 /* Pods-Shifraise-ShifraiseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
